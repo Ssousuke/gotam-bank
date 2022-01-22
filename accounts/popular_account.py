@@ -1,5 +1,4 @@
 from accounts.account import Account
-from exceptions.exception import DomainException
 
 
 class PopularAccount(Account):
