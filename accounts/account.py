@@ -27,7 +27,6 @@ class Account(object):
             raise DomainException('the minimum deposit amount is 10.0 R$')
         else:
             self.balance += amount
-        return
 
     def extract(self):
         print(f'Conta: {self.number}')
